@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif ;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    margin: 0px;
+}
+div{
+    background-image: url(https://www.kolpaper.com/wp-content/uploads/2020/03/peaky-blinders-wallpaper-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+h1{
+    color:black;
+}
+p{
+    color: white;
+    text-align: left;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+ul{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    font-weight: 800;
+    justify-content: space-between;
+}
+.action{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.actionfilms{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+    margin-left: 0px;
+    background: none;
+}
+.actionfilms img{
+    height: 325px;
+    justify-content: space-evenly;
+    background: none;
+}
+div .adventure{
+    background: none;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    
+}
+div img{
+    border-radius: 7px;
+}
+h2{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding-right: 600px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.catnav{
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col2{
+    flex-grow: 2;
+}
+.col1{
+    display: block;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.col2{
+    display: block;
+    border-radius: 4px;
+}
+form input{
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+
+
