@@ -2,8 +2,8 @@ body{
     margin: 0%;
     padding: 0px;
     font-family: "Montserrat", sans-serif ;
+    background-color: black;
 }
-
 header{
     display: flex;
     justify-content: space-around;
@@ -12,20 +12,22 @@ header{
     margin: 0px;
 }
 div{
-    background-image: url(https://www.kolpaper.com/wp-content/uploads/2020/03/peaky-blinders-wallpaper-5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
     text-transform: uppercase;
     font-size: 15px;
-
+}
+.backgroundimg{
+    background-image:  url(https://www.kolpaper.com/wp-content/uploads/2020/03/peaky-blinders-wallpaper-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 h1{
-    color:black;
+    color:#efefef;
+    
+    
 }
 p{
     color: white;
-    text-align: left;
 }
 nav{
     display: flex;
@@ -39,18 +41,6 @@ ul{
     font-weight: 800;
     justify-content: space-between;
 }
-.action{
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-}
-.actionfilms{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 0px;
-    margin-left: 0px;
-    background: none;
-}
 .actionfilms img{
     height: 325px;
     justify-content: space-evenly;
@@ -59,14 +49,18 @@ ul{
 div .adventure{
     background: none;
 }
+.adventure{
+    background: none;
+}
 div{
     display: flex;
     justify-content: space-between;
     height: 350px;
+    background: none;
     
 }
 div img{
-    border-radius: 7px;
+    border-radius: 10px;
 }
 h2{
     display: flex;
