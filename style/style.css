@@ -12,7 +12,6 @@ header{
     margin: 0px;
 }
 div{
-    text-transform: uppercase;
     font-size: 15px;
 }
 .backgroundimg{
@@ -41,24 +40,45 @@ ul{
     font-weight: 800;
     justify-content: space-between;
 }
-.actionfilms img{
+button{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: orange;
+}
+:hover{
+    cursor: pointer;
+    
+}
+#action-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+ img{
     height: 325px;
     justify-content: space-evenly;
-    background: none;
-}
-div .adventure{
     background: none;
 }
 .adventure{
     background: none;
 }
-div{
+.adventure{
+    background: none;
+}
+#adv-container{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+}
+#movie-container{
     display: flex;
     justify-content: space-between;
     height: 350px;
     background: none;
     
 }
+
 div img{
     border-radius: 10px;
 }
