@@ -4,10 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categories</title>
-    <link rel="stylesheet" href="style/style.css">
+    <style>
+     body{
+    margin: 0%;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif ;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    margin: 0px;
+}
+div{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.backgroundimg{
+    background-image:  url(https://www.kolpaper.com/wp-content/uploads/2020/03/peaky-blinders-wallpaper-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    color:#efefef;
+    
+    
+}
+p{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+ul{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    font-weight: 800;
+    justify-content: space-between;
+}
+button{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: orange;
+}
+:hover{
+    cursor: pointer;
+    
+}
+#action-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+ img{
+    height: 325px;
+    justify-content: space-evenly;
+    background: none;
+}
+.adventure{
+    background: none;
+}
+.adventure{
+    background: none;
+}
+#adv-container{
+    height: 350px;
+    justify-content: space-between;
+}
+#movie-container{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    background: none;
+    
+}
+
+div img{
+    border-radius: 10px;
+}
+h2{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding-right: 600px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.catnav{
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col2{
+    flex-grow: 2;
+}
+.col1{
+    display: block;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.col2{
+    display: block;
+    border-radius: 4px;
+}
+form input{
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+   
+    </style>
 </head>
 <body>
- 
+
     <header>
         <h2>MOVIE RANK</h2>
    <nav>
@@ -21,7 +167,7 @@
 
 <main>
  <div class="backgroundimg">
-     <h1>Categories</h1>
+     <h1>Categories</h1>              
         <p>
             My movie ranking site <br>
             for all things exciting movies and TV shows  
@@ -30,136 +176,109 @@
   
 
 </main>
-    <section>
-        <h1>Action</h1>
-        <div>
-            <img src="images/images/john wick 4.jpg" alt="">
-            <br>
-            
-                <a href="https://youtu.be/qEVUtrk8_B4">
-                     <button>
-                        Watch trailer
-                     </button>
-                </a>
-                <br>
-            <img src="images/images/batman.jpg" alt="">
-             
-            <br>
-            <a href="https://youtu.be/mqqft2x_Aa4">
-                <button>
-                   Watch trailer
-                </button>
-           </a>
-            <br>
-           <img src="images/images/Infinity war.jpg" alt="">
-            
-           <br>
-            <a href="https://youtu.be/TcMBFSGVi1c">
-                <button>
-                   Watch trailer
-                </button>
-           </a>
-           <br>
-           
-           <img src="images/images/John wick.jpg" alt="">
-            <br>
-            <a href="https://youtu.be/M7XM597XO94">
-                <button>
-                   Watch trailer
-                </button>
-           </a>
-           <br>
-           <img src="images/images/nobody.jpg" alt="">
-            <a href="https://youtu.be/wZti8QKBWPo">
-                <button>
-                   Watch trailer
-                </button>
-           </a>
-        </div>
-    </section>
-        <br> 
+ 
         <br>
-            <h1>Adventure</h1>
-            <div>
-               <br>
+            <h1>Favourite movies</h1>
+            <div id="adv-container">
+              <div>
+                <br>
                 <img src="images/images/jumanji.jpg" alt="">
                 <a href="https://youtu.be/rBxcF-r9Ibs">
-                    <button>
+                    <br><button>
                        Watch trailer
                     </button>
                </a>
-               <br>
-                <img src="images/images/MIB International.jpg" alt="">
-                <a href="https://youtu.be/BV-WEb2oxLk">
-                    <button>
-                       Watch trailer
-                    </button>
-               </a>
-               <br>
+            </div>
+               <div>
+                <br>
                 <img src="images/images/Mission_ Impossible Dead Reckoning.jpg" alt="">
                 <a href="https://youtu.be/avz06PDqDbM">
-                    <button>
+                    <br><button>
                        Watch trailer
                     </button>
                </a>
-               <br>
+               </div>
+              <div>
+                <br>
                 <img src="images/images/Uncharted.jpg" alt="">
                 <a href="https://youtu.be/eHp3MbsCbMg">
-                    <button>
+                   <br> <button>
                        Watch trailer
                     </button>
                </a>
-               <br>
+              </div>
+              <div>
+                <br>
                 <img src="images/images/Fast X Fast And Furious 10 Theatrical Movie Poster.jpg" alt="">
                 <a href="https://youtu.be/zkGG5C0hmTM">
-                    <button>
+                    <br><button>
                        Watch trailer
                     </button>
                </a>
+              </div>
                <br>
             </div>
             <br>
-            <h1>Comedy</h1>
-            <div>
-                <br>
-                <img src="images/images/Grownups.jpg" alt="">
-                <a href="https://youtu.be/e01NVCveGkg">
-                    <button>
-                       Watch trailer
-                    </button>
-               </a>
-               <br>
-                <img src="images/images/21 Jump street comedy.jpg" alt="">
-                <a href="https://youtu.be/Oj55KinxZx4">
-                    <button>
-                       Watch trailer
-                    </button>
-               </a>
-               <br>
-                <img src="images/images/GET HARD -2015- orig 27x40 D_S ADVANCE  Movie Poster - WILL FERRELL, KEVIN HART  _ eBay.jpg" alt="">
-                <a href="https://youtu.be/lEqrpuU9fYI">
-                    <button>
-                       Watch trailer
-                    </button>
-               </a>
-               <br>
-                <img src="images/images/Friday.jpg" alt="">   
-                <a href="https://youtu.be/umvFBoLOOgo">
-                    <button>
-                       Watch trailer
-                    </button>
-               </a>
-               <br>
-                <img src="images/images/Ride along 2.jpg" alt="">
-                <a href="https://youtu.be/iWfmmwdCHTg">
-                    <button>
-                       Watch trailer
-                    </button>
-               </a>
-               <br>
             </div>
 
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
     
             <footer>
                 <div class="footer">

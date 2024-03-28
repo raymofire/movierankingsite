@@ -13,12 +13,17 @@ header{
 }
 div{
     font-size: 15px;
+  
 }
 .backgroundimg{
     background-image:  url(https://www.kolpaper.com/wp-content/uploads/2020/03/peaky-blinders-wallpaper-5.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
+}
+img{
+    height: 325px;
+    justify-content: space-evenly;
+    background: none;
 }
 h1{
     color:#efefef;
@@ -55,11 +60,7 @@ button{
     display: flex;
     justify-content: space-evenly;
 }
- img{
-    height: 325px;
-    justify-content: space-evenly;
-    background: none;
-}
+
 .adventure{
     background: none;
 }
